@@ -5,7 +5,7 @@ This is a note book of  cross selling of health insurance customers on vehicle i
 ## Background Information :
 an Insurance company that provide Health Insurance to its customers, usually they offer other insurance product to the customers through diffirent kind of marketing channel. In this case we will build a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
 ## Problem Statement:
-Un optimize customer reachout process, many insurance worker spend a lot of their time having meeting with prospective client without knowing the probabily of that customer to buy the insurance product
+Un optimize customer reachout process, many insurance worker spend a lot of their time having meeting with prospective client without knowing the probablity of that customer to buy the insurance product
 ## Business Goals:
 Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue
 ## Business Question:
@@ -18,7 +18,7 @@ What's the best machine Learning modeling for this Cross Sell case
 ## Feature Engineering & Selection For Machine Learning Process
 
 ## Encoding all the categorical features
-Checking correlation between dependent and independet variable
+Checking correlation between dependent and independent variable
 Feature Selection
 ## Model Building :
 
