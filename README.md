@@ -29,3 +29,11 @@ Check The Evaluation matrix for all the base model
 HyperParameter tuning
 Checking Evaluation Matrix for tuned Model
 Choose which model has the best recall score for this case
+##Conclusion
+Starting from loading our dataset, we initially checked for null values and duplicates. There were no null values and duplicates so treatment of such was not required.
+Through Exploratory Data Analysis,we observed that customers belonging to youngAge are more interested in vehicle response.while Young people below 30 are not interested in vehicle insurance. We observed that customers having vehicles older than 2 years are more likely to be interested in vehicle insurance. Similarly, customers having damaged vehicles are more likely to be interested in vehicle insurance.
+The variable such as Age, Previously_insured,Annual_premium are more afecting the target variable.
+For Feature Selection, we applied the Mutual Information technique. Here we observed that Previously_Insured is the most important feature and has the highest impact on the dependent feature and there is no correlation between the two.
+We observed that the target variable was highly imbalanced.So this issue was solved by using Random Over Sample resampling technique.
+we applied feature scaling techniques to normalize our data to bring all features on the same scale and make it easier to process by ML algorithms.
+Further, we applied Machine Learning Algorithms to determine whether a customer would be interested in Vehicle Insurance.For the logistic regression we got an accuracy of 78% and for the XGBClassifier we got the aacuracy of 79% whereas, Randomforest and Decision tree are giving us almost similar result of accuracy and ROC_AUC which is 91% and 92% respectively.So, we selected our best model as the model with an accuracy score of 91% i.e Random Forest model and Decision Tree this model preform better.
