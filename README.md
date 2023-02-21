@@ -31,7 +31,7 @@ Checking Evaluation Matrix for tuned Model
 Choose which model has the best recall score for this case
 
 ## Conclusion:
-Starting from loading our dataset, we initially checked for null values and duplicates. There were no null values and duplicates so treatment of such was not required.
+> Starting from loading our dataset, we initially checked for null values and duplicates. There were no null values and duplicates so treatment of such was not required.
 Through Exploratory Data Analysis,we observed that customers belonging to youngAge are more interested in vehicle response.while Young people below 30 are not interested in vehicle insurance. We observed that customers having vehicles older than 2 years are more likely to be interested in vehicle insurance. Similarly, customers having damaged vehicles are more likely to be interested in vehicle insurance.
 The variable such as Age, Previously_insured,Annual_premium are more afecting the target variable.
 For Feature Selection, we applied the Mutual Information technique. Here we observed that Previously_Insured is the most important feature and has the highest impact on the dependent feature and there is no correlation between the two.
